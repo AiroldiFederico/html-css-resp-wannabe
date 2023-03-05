@@ -128,23 +128,41 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-/* TABLET */
-
-@media only screen and (max-width: 768px) {
 
 
-    h1 {
-        color: yellow;
+
+/* DESKTOP */
+ @media screen and (min-width: 768px) {
+
+    .container {
+        width: 100vw;
+        margin: 0 auto;
+        padding: 0 20px;
     }
-}
+    
+ }
 
 
-/* MOBILE */
+ /* TABLET */
+ @media screen and (max-width: 768px) {
 
-@media only screen and (max-width: 480px) {
-
-    h1 {
-        color: rgb(0, 252, 92);
+    .container {
+        width: 100vw;
+        margin: 0 auto;
+        padding: 0 20px;
     }
+    
+ }
 
-}
+
+
+  /* MOBILE */
+  @media screen and (max-width: 480px) {
+
+    .container {
+        width: 100vw;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    
+  }
