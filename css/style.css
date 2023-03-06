@@ -132,15 +132,11 @@ img {
 
 
 /* DESKTOP */
- @media screen and (min-width: 768px) {
+ /* @media screen and (min-width: 768px) {
 
-    /* .container {
-        margin:auto;
-        padding: 0 20px;
-    } */
 
     
- }
+ } */
 
 
  /* TABLET */
@@ -180,5 +176,4 @@ img {
         margin-bottom: 0;
     }
 
-    
   }
