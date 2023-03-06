@@ -170,8 +170,15 @@ img {
         width: 100%;
     }
 
-    body {
+    .why-us {
+        margin-bottom: 0;
         background: #202128;
     }
+
+
+    .steps {
+        margin-bottom: 0;
+    }
+
     
   }
